@@ -1,0 +1,484 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+		<style>
+			body, html, footer, section {
+				margin:0;
+				padding:0;
+				font-family:Open Sans Condensed;
+			}
+			
+			.content p {
+				margin-top:3px;
+				margin-bottom:6px;
+			}
+			
+			header {
+				border-top:6px solid rgb(55, 125, 185);
+			}
+			
+			header div {
+				float:left;
+			}
+			
+			.persona {
+				width:500px;
+				margin:20px;
+			}
+			
+			.persona img {
+				float:left;
+			}
+			
+			.persona h1, .persona h2 {
+				display:inline-block;
+				font-weight:500;
+			}
+			
+			h1 {
+			 font-size:70px;
+			 margin:0;
+			 padding:0;
+			}
+			
+			h2 {
+				font-size:24px;
+				color:gray;
+			 margin:0;
+			 padding:0;
+			 margin-top:-8px;
+			 margin-left:3px;
+			}
+			
+			.contact {
+				margin:9px 20px 23px;
+			}
+			
+			.contact i {
+				float:left;
+				color: #FFF;
+				background: none repeat scroll 0% 0% rgb(55, 125, 185) !important;
+				display: inline-block !important;
+				padding: 0px;
+				border-radius: 21px;
+				width: 39px;
+				height: 39px !important;
+				text-align: center !important;
+				box-sizing: border-box;
+			}
+			.contact span {
+				display:inline-block;
+				margin-top:8px;
+				margin-left:13px;
+			}
+			
+			.fa-mobile {
+				font-size:34px !important;
+				padding-top: 3px !important;
+			}
+			
+			.fa-envelope-o {
+				font-size:25px !important;
+				padding-top: 7px !important;
+			}
+			
+			.fa-globe {
+				font-size:27px !important;
+				padding-top: 6px !important;
+			}
+			
+			.content {
+				width:auto;
+				margin:0px 29px;
+			}
+			
+			h3 {
+				font-size:40px;
+				font-weight:normal;
+				color:grey;
+				border-bottom:1px solid rgba(128, 128, 128, 0.3)  !important;
+				margin:0px;
+			}
+			
+			.row {
+				border-bottom:5px dotted rgba(236, 236, 236, 1);
+				width:100%;
+				float:left;
+				padding-bottom:12px;
+			}
+			
+			.row:last-child{
+				border-bottom:none;
+			}
+			
+			.dateinfo {
+				width:200px;
+				display:inline-block;
+				float:left;
+			}
+			
+			.company {
+				margin-top:10px;
+				font-size:22px;
+				text-align:center;
+			}
+			
+			.description {
+				width:50%;
+				display:inline-block;
+				float:left;
+				margin:10px;
+				box-shizing:border-box;
+			}
+			
+			.description b {
+				color:#4C687F;
+			}
+			
+			.date {
+				text-align: center;
+				border-radius: 32px;
+				font-size: 16px;
+				color: #FFF;
+				background: none repeat scroll 0% 0% rgb(55, 125, 185);
+				/*background:url('ring.png');*/
+				display: inline-block;
+				width: 60px;
+				height: 60px;
+				padding-top: 19px;
+				box-sizing: border-box;
+				float:left;
+			}
+			
+			.sep {
+				width:68px;
+				background:url('sep.png');
+				opacity:0.2;
+				margin-left:2px;
+				margin-right:2px;
+			}
+			
+			span.tag {
+			 color:#FFF;
+			 background:#4CACFF;
+			 padding:4px;
+			 border-radius:4px;
+			 padding:0px 10px;
+			 line-height:25px;
+			}
+			
+			.uni, .skill {
+				display:inline-block;
+			}
+			
+			.uni {
+				width:60%;
+				float:left;
+			}
+			
+			.skill {
+				width:39%;
+				float:left;
+			}
+			
+			.skill ul {
+				list-style:none;
+			}
+			
+			.skill span {
+				display:inline-block;
+				width:80px;
+				text-align:right;
+				margin-right:6px;
+				font-size:18px;
+			}
+			
+			.skill .fa-circle {
+				color:rgb(55, 125, 185);
+			}
+			.skill .fa-circle-thin {
+				color:rgb(55, 125, 185);
+				opacity:0.5;
+			}
+			
+			footer {
+				margin-top:20px;
+				text-align:center;
+				position:fixed;
+				bottom:16px;
+				font-size:14px;
+				width:80%;
+				margin-left:10%;
+				background:#FFF;
+			}
+			
+			.fix {
+				clear:both;
+			}
+		</style>
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+		<title>CV</title>
+	</head>
+	<body>
+		<header>
+			<div class="persona">
+				<img src="profilowe.png" alt="" />
+				<h1>Wojciech Sipa</h1>
+				<h2>programista .net/javaScript</h2>
+			</div>
+			<div class="contact">
+				<p><i class="fa fa-mobile"></i> <span>--- --- ---</span></p>
+				<p><i class="fa fa-envelope-o"></i> <span>wojciech.sipa@gmail.com</span></p>
+				<p><i class="fa fa-globe"></i> <span>http://wojciechsipa.pl</span></p>
+			</div>
+		</header>
+		<div class="fix"></div>
+		<div class="content">
+			<section>
+				<h3>O mnie</h3>
+				<p>Najlepiej czuję się w środowisku .NET i wszelkich rozwiązaniach webowych. W pracy staram się wychodzić poza ulubione IDE poprzez włączanie się w projektowanie interfejsów, analizę UX, czy dyskusje na temat nowych funkcjonalności.</p>
+				<p>Szybko się uczę. Interesuje mnie wszystko to, co pozwala mi się rozwijać, dlatego na bieżąco śledzę najnowsze trendy i rozwiązania w .NET, web <br />i mobile. Jestem osobą otwartą, dobrze odnajduję się w grupie, potrafię przejąć inicjatywę kiedy to konieczne i nie boję się podejmowania decyzji.</p>
+			</section>
+			<section>
+				<h3>Doświadczenie</h3>
+				<div class="row">
+					<div class="dateinfo">
+						<div class="company">
+							Comarch
+						</div>
+						<div class="date">
+							07/<b>2014</b>
+						</div>
+						<div class="date sep"></div>
+						<div class="date">
+							...
+						</div>
+					</div>
+					<div class="description">
+						<p><b>Programista .NET/JavaScript</b></p>
+						<p>Rozwój aplikacji w AngularJS i ASP.NET WebAPI</p>
+						<p><span class="tag">asp.net web api</span>
+						<span class="tag">asp.net mvc4</span>
+						<span class="tag">c#</span>
+						<span class="tag">AngularJS</span>
+						<span class="tag">html</span>
+						<span class="tag">css</span>
+						<span class="tag">javaScript</span>
+						<span class="tag">bootstrap</span>
+						<span class="tag">grunt</span>
+						<span class="tag">typeScript</span>
+						<span class="tag">git</span>
+						<span class="tag">tfs</span></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="dateinfo">
+						<div class="company">
+							Comarch
+						</div>
+						<div class="date">
+							10/<b>2012</b>
+						</div>
+						<div class="date sep"></div>
+						<div class="date">
+							07/<b>2014</b>
+						</div>
+					</div>
+					<div class="description">
+						<p><b>Programista .NET</b></p>
+						<p>Obsługa aplikacji webowej (rozwój i utrzymanie, przeprowadzanie analiz, wdrożen)</p>
+						<p><span class="tag">asp.net</span>
+						<span class="tag">asp.net mvc3</span>
+						<span class="tag">c#</span>
+						<span class="tag">sql</span>
+						<span class="tag">silverlight</span>
+						<span class="tag">html</span>
+						<span class="tag">css</span>
+						<span class="tag">javaScript</span>
+						<span class="tag">xsl</span>
+						<span class="tag">JIRA</span></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="dateinfo">
+						<div class="company">
+							Comarch
+						</div>
+						<div class="date">
+							07/<b>2012</b>
+						</div>
+						<div class="date sep"></div>
+						<div class="date">
+							10/<b>2012</b>
+						</div>
+					</div>
+					<div class="description">
+						<p><b>Stażysta .NET</b></p>
+						<p>Tworzenie aplikacji webowej generującej raporty w Reporting Services</p>
+						<p><span class="tag">asp.net mvc3</span>
+						<span class="tag">c#</span>
+						<span class="tag">sql</span>
+						<span class="tag">Reporting Services</span>
+						<span class="tag">html</span>
+						<span class="tag">css</span>
+						<span class="tag">javaScript</span>
+						<span class="tag">svn</span></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="dateinfo">
+						<div class="company">
+							WebWerx
+						</div>
+						<div class="date">
+							05/<b>2012</b>
+						</div>
+						<div class="date sep"></div>
+						<div class="date">
+							07/<b>2012</b>
+						</div>
+					</div>
+					<div class="description">
+						<p><b>Junior Web Designer/ Web Developer</b></p>
+						<p>Kodowanie projektów stron www</p>
+						<span class="tag">asp.net mvc3</span>
+						<span class="tag">c#</span>
+						<span class="tag">html</span>
+						<span class="tag">css</span>
+						<span class="tag">javaScript</span>
+						<span class="tag">jQuery</span></p>
+					</div>
+				</div>
+			</section>			
+			<div class="fix" style="page-break-after:always;"></div>
+			<br />
+			<section>
+				<h3 style="margin-top:40px !important;">Wykształcenie/umiejętności</h3>
+
+					<div class="uni">
+						<div>
+							<div class="dateinfo"style="margin-top: 14px;" >
+							<div class="company" style="font-size:18px;">
+								Uniwersytet Łódzki
+							</div>
+							</div>
+							<div class="description">
+								<p>Informatyka w języku angielskim, magisterskie <b>koniec w czerwcu 2015</b></p>
+							</div>
+						</div>
+						<div>
+							<div class="dateinfo" style="margin-top: 2px;">
+							<div class="company" style="font-size:18px;">
+								Uniwersytet Łódzki
+							</div>
+							</div>
+							<div class="description">
+								<p><b>Informatyka, licencjackie</b></p>
+							</div>
+						</div>
+					</div>
+		
+				<div class="skill">
+					<ul>
+						<li>
+							<span>C#</span>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle-thin"></i>
+						</li>
+						<li>
+							<span>ASP.net MVC</span>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle-thin"></i>
+						</li>
+						<li>
+							<span>AngularJS</span>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle-thin"></i>
+							<i class="fa fa-circle-thin"></i>
+							<i class="fa fa-circle-thin"></i>
+							<i class="fa fa-circle-thin"></i>
+						</li>
+						<li>
+							<span>HTML/CSS</span>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle-thin"></i>
+						</li>
+						<li>
+							<span>javaScript</span>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle-thin"></i>
+							<i class="fa fa-circle-thin"></i>
+							<i class="fa fa-circle-thin"></i>
+						</li>
+						<li>
+							<span>SQL</span>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle-thin"></i>
+							<i class="fa fa-circle-thin"></i>
+							<i class="fa fa-circle-thin"></i>
+						</li>
+						<li>
+							<span>english</span>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle"></i>
+							<i class="fa fa-circle-thin"></i>
+							<i class="fa fa-circle-thin"></i>
+							<i class="fa fa-circle-thin"></i>
+							<i class="fa fa-circle-thin"></i>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<div class="fix"></div>
+			<section>
+				<h3>Warto wiedzieć</h3>
+				
+				<p><br /><b>Hobby</b><br />Motocykle marki JAWA (mam cztery ;) ), akwarystyka, wędkarstwo, ping-pong, piłka nożna, siatkówka</p>
+				<br /><p><b>Przebyte kursy</b><br />- Zaawansowany JavaScript<br />
+- Wzorce projektowe, refaktoryzacja oraz Test Driven Development<br />
+- Budowanie ergonomicznych interfejsów użytkownika<br />
+- Agile, zwinne techniki tworzenia oprogamowania</p>
+				<br /><p><b>Certyfikat</b><br />Posiadam certyfikat <i>70-486 Developing ASP.NET MVC Web Applications</i></p>
+				<br /><p><b>Jako prelegent</b><br />Regularnie prowadziłem spotkania <i>Grupy .NET Uniwersytetu Łódzkiego</i>, dwa razy prowadziłem wykład na <i>Łódzkich Dniach IT</i> jako przedstawiciel firmy <i>Comarch</i></p>
+			<br /><p><b>Freelancing</b><br />Od ok 2008 roku działam także jako Freelancer. Zamuje się projektowaniem, kodowaniem, implementacją swojego małego CMSu. Główna tematyka to strony sportowe, bądź związane w jakiś sposób ze sportem (transmisje online). Wykorzystuję tutaj <b>php, mySql, html/css, javaScript</b>. Z momentem podjęcia pracy moja aktywność spadła, jednak ciągle zdarzają się zlecenia :)</p>
+					</p>
+			</section>	
+		</div>
+		<!--<footer>Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w niniejszym CV dla potrzeb niezbędnych do realizacji
+procesu rekrutacji (zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz. U. z 2002r. Nr 101,
+poz. 926 ze zm.)</footer>-->
+	</body>
+</html>
